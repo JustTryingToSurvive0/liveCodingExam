@@ -185,6 +185,9 @@ section {
         padding: 0 100px 0 100px;
         margin-top: 40px;
     }
+    header {
+        position: relative;
+    }
     #bi {
         display: block;
         color: #2b9fcd;
