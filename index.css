@@ -191,12 +191,11 @@ section {
     #bi {
         display: block;
         color: #2b9fcd;
-        font-size: 2rem;
+        font-size: 1.2rem;
     }
     .sect {
         display: block;
         margin: auto;
-        padding-top: 100px;
     }
     .text h1 {
         font-family: 'Prata', Georgia, "Times New Roman", serif;
