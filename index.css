@@ -182,6 +182,88 @@ section {
     display: flex;
     gap: 3rem;
 }
+.tour-sec {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-image: linear-gradient(120deg, rgba(0, 4, 66, 0) 0%, #000442 70%), url(https://edu.sqi.ng/wp-content/uploads/2020/08/DSC_9054-scaled.jpg) !important;
+    background-position: left;
+    background-size: contain;
+    padding: 60px;
+}
+.tour-left {
+    width: 40%;
+}
+.tour-left .tlt {
+    margin: 0 80px;
+    width: 80%;
+    height: 220px;
+}
+.tour-left .tlt iframe {
+    width: 100%;  
+    height: inherit;
+    border-radius: 30px;
+    float: left;
+}
+.tour-right {
+    width: 60%;
+}
+.trt h1 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 800;
+}
+.trt p {
+    color: #fff;
+    font-size: 1.3rem;
+    margin: 30px 0;
+}
+.trb button {
+    padding: 20px 30px;
+    background-color: #00208A;
+    border-radius: 40px;
+    border: none;
+}
+.trb a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+
+.carousel-item {
+    gap: 60px;
+}
+.cc {
+    width: 25rem;
+    padding: 0 30px 30px 30px;
+    /* height: 100px; */
+    /* overflow-y: scroll; */
+}
+.ge {
+    height: 290px;
+}
+.ov {
+    overflow-y: scroll;
+    height: 80px;
+    overflow-x: hidden;
+    font-size: 1.1rem;
+}
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #8b8b8b;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+
+
+
+
 
 
 @media (max-width:992px) {
@@ -229,6 +311,36 @@ section {
     .ge {
         margin: 7rem 0;
     }
+    .tour-sec {
+        display: block;
+        width: 100%;
+    }
+    .tour-left {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .tour-left .tlt {
+        width: 100%;
+        margin: auto;
+        height: 26.25rem;
+    }
+    .tour-left .tlt iframe {
+        width: inherit;
+        height: inherit;
+    }
+
+    .tour-right {
+        width: 100%;
+        height: auto;
+    }
+    .trt h1 {
+        font-size: 2em;
+    }
+    .trt p {
+        font-size: 1.1em;
+    }
+
 }
 @media (max-width:768px) {
     section {
@@ -252,10 +364,39 @@ section {
     .card-title {
         font-size: 1rem;
     }
+    .alum {
+        display: none;
+    }
+    .tour-left .tlt {
+        width: 100%;
+        margin: auto;
+        height: 20.25rem;
+    }
+    .tour-left .tlt iframe {
+        width: inherit;
+        height: inherit;
+    }
 }
 @media (max-width:576px) {
     section {
         padding: 0 50px 0 50px;
         margin-top: 40px;
+    }
+    .tour-left .tlt {
+        width: 100%;
+        margin: auto;
+        height: 15.25rem;
+    }
+    .tour-left .tlt iframe {
+        width: inherit;
+        height: inherit;
+    }
+    .trt h1 {
+        font-size: 1.5em;
+        margin-bottom: 0;
+    }
+    .trt p {
+        font-size: 1em;
+        margin-top: 5px;
     }
 }
