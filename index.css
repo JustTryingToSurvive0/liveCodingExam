@@ -178,6 +178,10 @@ section {
     font-size: 1.1rem;
     color: #5d5d5d;
 }
+#shift {
+    display: flex;
+    gap: 3rem;
+}
 
 
 @media (max-width:992px) {
@@ -215,6 +219,16 @@ section {
     .cho {
         display: block;
     }
+    #shift {
+        display: block;
+        gap: 5rem;
+    }
+    .card-title {
+        font-size: 1.7rem;
+    }
+    .ge {
+        margin: 7rem 0;
+    }
 }
 @media (max-width:768px) {
     section {
@@ -234,6 +248,9 @@ section {
     }
     .start {
         margin-top: -1rem;
+    }
+    .card-title {
+        font-size: 1rem;
     }
 }
 @media (max-width:576px) {
