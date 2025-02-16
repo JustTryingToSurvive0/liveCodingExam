@@ -7,17 +7,12 @@ body {
     font-family: 'Poppins', Helvetica, Arial, Lucida, sans-serif;
 }
 header{
-    position: fixed;
-    top: 0;
-    width: 100%;
     z-index: 9999;
 }
 #split{
-    /* width: 80%; */
     display: flex;
     justify-content: space-between;
-    margin: auto;
-    align-items: center;
+    gap: 11.25em;
 }
 .logo {
     width: 77px;
@@ -77,6 +72,7 @@ section {
     margin-top: 5rem;
     justify-content: space-between;
 }
+
 .text {
     margin-top: 50px;
 }
@@ -107,6 +103,16 @@ section {
     position: relative;
     background-color: #00208A;
     margin-top: 1.9rem;
+}
+.start:hover .start-icon {
+    display: inline-block;
+}
+.start-icon {
+    font-size: 6px;
+    vertical-align: middle;
+    transform: translateX(12px);
+    transition: 3s ease;
+    display: none;
 }
 
 .childs {
@@ -260,7 +266,6 @@ section {
 .s-r-i {
     height: 100%;
     width: 100%;
-    background-color: red;
 }
 .s-r-i img {
     width: inherit;
@@ -367,6 +372,7 @@ section {
     .sect {
         display: block;
         margin: auto;
+        padding-top: 50px;
     }
     .text h1 {
         font-family: 'Prata', Georgia, "Times New Roman", serif;
@@ -529,6 +535,9 @@ section {
     section {
         padding: 0 50px 0 50px;
         margin-top: 40px;
+    }
+    .sect {
+        padding-top: 30px;
     }
     .tour-left .tlt {
         width: 100%;
