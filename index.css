@@ -205,12 +205,7 @@ section {
 .carousel-item {
     gap: 60px;
 }
-.cc {
-    /* width: 25rem; */
-    /* padding: 0 30px 30px 30px; */
-    /* height: 100px; */
-    /* overflow-y: scroll; */
-}
+
 .ov {
     overflow-y: scroll;
     height: 80px;
@@ -559,9 +554,6 @@ section {
 }
 
 @media (max-width: 576px) {
-    #study-sec {
-        /* padding: 0 60px; */
-    }
     .stud {
         font-size: 1.3rem;
         font-weight: 550;
